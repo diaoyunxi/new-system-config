@@ -1,4 +1,22 @@
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive files
 .env
-.env.local
+*.pem
+*.key
+*.crt
+
+# Temporary
+*.tmp
+*.bak
+*.log
