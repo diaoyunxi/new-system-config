@@ -1,4 +1,23 @@
+# OS files
 .DS_Store
 Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# Sensitive files
 .env
-.env.local
+.env.*
+*.key
+*.pem
