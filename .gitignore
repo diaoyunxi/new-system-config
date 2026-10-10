@@ -1,4 +1,33 @@
+# OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive files
 .env
-.env.local
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Temp files
+*.tmp
+*.bak
+*.log
+*.cache
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dll
+*.exe
